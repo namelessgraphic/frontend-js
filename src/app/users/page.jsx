@@ -1,10 +1,11 @@
 "use client";
+import AuthenticatedLayout  from '../Layouts/AuthenticatedLayout';
 
 export default function Users() {
 
     return (
-        <>
-            {/* code... */}
-        </>
+        <AuthenticatedLayout>
+
+        </AuthenticatedLayout>
     )
 }
