@@ -5,7 +5,7 @@ export default function Users() {
 
     return (
         <AuthenticatedLayout>
-
+            
         </AuthenticatedLayout>
     )
 }

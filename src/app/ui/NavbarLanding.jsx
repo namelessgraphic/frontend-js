@@ -12,17 +12,10 @@ export function NavbarLanding() {
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
-        <Navbar.Link href="/" active>
-          Home
-        </Navbar.Link>
-        <Navbar.Link as={Link} href="#">
-          About
-        </Navbar.Link>
-        <Navbar.Link href="#">Services</Navbar.Link>
-        <Navbar.Link href="#">Pricing</Navbar.Link>
-        <Navbar.Link href="#">Contact</Navbar.Link>
-        <Navbar.Link href="/login" className="hover:underline">Login</Navbar.Link>
-        <Navbar.Link href="#" className="hover:underline">Register</Navbar.Link>
+        <Navbar.Link as={Link} href="/" active>Home</Navbar.Link>
+        <Navbar.Link as={Link} href="/users" className="hover:underline">Users</Navbar.Link>
+        <Navbar.Link as={Link} href="/login" className="hover:underline">Login</Navbar.Link>
+        <Navbar.Link as={Link} href="#" className="hover:underline">Register</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );

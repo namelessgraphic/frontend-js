@@ -1,13 +1,13 @@
 "use client";
 
-import { NavbarLanding } from "../ui/NavbarLanding";
+import { NavbarAuth } from "../ui/NavbarAuth";
 
 export default function AuthenticatedLayout({
     children, // will be a page or nested layout
   }) {
     return (
       <section>
-        <NavbarLanding />
+        <NavbarAuth />
         {children}
       </section>
     )
